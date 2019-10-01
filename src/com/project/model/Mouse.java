@@ -41,7 +41,7 @@ public class Mouse {
     public void generate(ArrayList<Mouse> arr) {
         if (arr.size() <= 1) {
             int x = 50 + rd.nextInt(SnakeFrame.W_FRAME - 80);
-            int y = -500 + rd.nextInt(200);
+            int y = -800 + rd.nextInt(200);
             Mouse mouse = new Mouse(x, y);
             arr.add(mouse);
         }
